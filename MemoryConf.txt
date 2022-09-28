@@ -1,0 +1,7 @@
+#DEFAULT: C:\Program Files\PostgreSQL\14\data\postgresql.conf
+#MY RECOMENDED VALUES FOR 32GB RAM
+
+shared_buffers = 8192MB
+temp_buffers = 32MB
+work_mem = 64MB
+maintenance_work_mem = 256MB
