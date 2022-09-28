@@ -1,22 +1,26 @@
 # AutoPgDash4Windows
 automatization script for using pgdash on windows
 
-#DOWNLOAD PgMetrics && PgDash for Windows FROM
+Download PgMetrics && PgDash for Windows from
 
 https://github.com/rapidloop/pgmetrics/releases
 
 https://github.com/rapidloop/pgdash/releases
 
-#AND EXTRACT
+and extract
 
-#CHANGE THE POSTGRESQL.CONF
+change the postgresql.conf
 
-#DEFAULT CONFIG ROUTE: C:\Program Files\PostgreSQL\14\data\postgresql.conf
+Default postgresql.conf route: "C:\Program Files\PostgreSQL\14\data\postgresql.conf"
 
-#CHANGES ARE IN ".\Changes4postgresqlConf.txt"
+Changes are in: ".\Changes4postgresqlConf.txt"
 
-#RESTART POSTGRESQL SERVICE
+Restart the postgresql service in services.
 
-#FOR EACH BD: CREATE EXTENSION pg_stat_statements;
+For eah DB we want to monitorice: "CREATE EXTENSION pg_stat_statements;"
 
-#PUT YOUR OWN DATA IN THE SCRIPT
+PUT YOUR OWN DATA IN THE SCRIPT
+
+https://docs.pgdash.io/automation
+
+Copy or make a direct access to "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" if you want it to auto start
