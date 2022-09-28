@@ -1,7 +1,7 @@
 # AutoPgDash4Windows
 automatization script for using pgdash on windows
 
-#DOWNLOAD FROM
+#DOWNLOAD PgMetrics && PgDash FROM
 https://github.com/rapidloop/pgmetrics/releases
 https://github.com/rapidloop/pgdash/releases
 #AND EXTRACT
