@@ -21,6 +21,8 @@ For eah DB we want to monitorice: "CREATE EXTENSION pg_stat_statements;"
 
 PUT YOUR OWN DATA IN THE SCRIPT
 
+https://pgmetrics.io/docs/index.html
+
 https://docs.pgdash.io/automation
 
 Copy or make a direct access to "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" if you want it to auto start
